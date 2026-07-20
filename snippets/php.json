@@ -11,7 +11,10 @@
   },
   "Turbo Error Log": {
     "prefix": "terrlog",
-    "body": ["error_log(\"🚀 ~ ${1:value}: \" . print_r(${1:value}, true));", "$0"],
+    "body": [
+      "error_log(\"🚀 ~ ${1:value}: \" . print_r(${1:value}, true));",
+      "$0"
+    ],
     "description": "error_log with a 🚀 marker"
   }
 }

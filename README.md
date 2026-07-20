@@ -12,19 +12,19 @@ No build step, no Rust — this is a pure declarative snippets extension (`exten
 
 ## Usage
 
-| Language | Prefix | Inserts |
-|---|---|---|
-| JS/TS/TSX/JSX | `tlog` | `console.log("🚀 ~ value:", value);` |
-| JS/TS/TSX/JSX | `terr` | `console.error(...)` |
-| JS/TS/TSX/JSX | `twarn` | `console.warn(...)` |
-| JS/TS/TSX/JSX | `tinfo` | `console.info(...)` |
-| JS/TS/TSX/JSX | `tdebug` | `console.debug(...)` |
-| JS/TS/TSX/JSX | `ttable` | `console.table(value);` |
-| Python | `tprint` | `print(f"🚀 ~ {value=}")` |
-| Python | `tdebug`/`tinfo`/`twarn`/`terr` | matching `logging.*` call |
-| PHP | `tdump` | `var_dump(...)` |
-| PHP | `tprint` | `print_r(...)` |
-| PHP | `terrlog` | `error_log(...)` |
+| Language      | Prefix                          | Inserts                              |
+| ------------- | ------------------------------- | ------------------------------------ |
+| JS/TS/TSX/JSX | `tlog`                          | `console.log("🚀 ~ value:", value);` |
+| JS/TS/TSX/JSX | `terr`                          | `console.error(...)`                 |
+| JS/TS/TSX/JSX | `twarn`                         | `console.warn(...)`                  |
+| JS/TS/TSX/JSX | `tinfo`                         | `console.info(...)`                  |
+| JS/TS/TSX/JSX | `tdebug`                        | `console.debug(...)`                 |
+| JS/TS/TSX/JSX | `ttable`                        | `console.table(value);`              |
+| Python        | `tprint`                        | `print(f"🚀 ~ {value=}")`            |
+| Python        | `tdebug`/`tinfo`/`twarn`/`terr` | matching `logging.*` call            |
+| PHP           | `tdump`                         | `var_dump(...)`                      |
+| PHP           | `tprint`                        | `print_r(...)`                       |
+| PHP           | `terrlog`                       | `error_log(...)`                     |
 
 Type the variable name once at the tab stop — it's linked, so it fills both the label and the value in the same snippet expansion.
 

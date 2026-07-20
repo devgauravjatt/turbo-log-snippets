@@ -7,9 +7,9 @@ description = "Turbo Console Log-inspired debug logging snippets for JS, TS, TSX
 repository = "https://github.com/<your-username>/turbo-log-snippets"
 
 snippets = [
-    "./snippets/javascript.json",
-    "./snippets/typescript.json",
-    "./snippets/tsx.json",
-    "./snippets/python.json",
-    "./snippets/php.json",
+  "./snippets/javascript.json",
+  "./snippets/typescript.json",
+  "./snippets/tsx.json",
+  "./snippets/python.json",
+  "./snippets/php.json",
 ]
