@@ -1,0 +1,27 @@
+{
+  "Turbo Print": {
+    "prefix": "tprint",
+    "body": ["print(f\"🚀 ~ {${1:value}=}\")", "$0"],
+    "description": "Debug print using a self-documenting f-string (shows name=value)"
+  },
+  "Turbo Log Debug": {
+    "prefix": "tdebug",
+    "body": ["logging.debug(f\"🚀 ~ {${1:value}=}\")", "$0"],
+    "description": "logging.debug with a 🚀 marker"
+  },
+  "Turbo Log Info": {
+    "prefix": "tinfo",
+    "body": ["logging.info(f\"🚀 ~ {${1:value}=}\")", "$0"],
+    "description": "logging.info with a 🚀 marker"
+  },
+  "Turbo Log Warning": {
+    "prefix": "twarn",
+    "body": ["logging.warning(f\"🚀 ~ {${1:value}=}\")", "$0"],
+    "description": "logging.warning with a 🚀 marker"
+  },
+  "Turbo Log Error": {
+    "prefix": "terr",
+    "body": ["logging.error(f\"🚀 ~ {${1:value}=}\")", "$0"],
+    "description": "logging.error with a 🚀 marker"
+  }
+}

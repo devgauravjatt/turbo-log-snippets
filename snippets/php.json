@@ -1,0 +1,17 @@
+{
+  "Turbo Var Dump": {
+    "prefix": "tdump",
+    "body": ["var_dump(\"🚀 ~ ${1:value}: \", ${1:value});", "$0"],
+    "description": "var_dump with a 🚀 marker"
+  },
+  "Turbo Print R": {
+    "prefix": "tprint",
+    "body": ["print_r(\"🚀 ~ ${1:value}: \");", "print_r(${1:value});", "$0"],
+    "description": "print_r with a 🚀 marker"
+  },
+  "Turbo Error Log": {
+    "prefix": "terrlog",
+    "body": ["error_log(\"🚀 ~ ${1:value}: \" . print_r(${1:value}, true));", "$0"],
+    "description": "error_log with a 🚀 marker"
+  }
+}
